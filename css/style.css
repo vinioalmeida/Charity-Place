@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+
+h2{
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+p{
+    color: black;
+    font-weight: 200;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+#header__home{
+
+    background-image: url(../img/Agricultura-sustentavel\ \(pagina\ principal\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    
+}
+#header__agricultura{
+
+    background-image: url(../img/Agricultura-sustentavel\ \(pagina\ principal\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    
+}
+#header__cultivo{
+
+    background-image: url(../img/Agricultura-sustentavel\ \(pagina\ principal\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    
+}
+#header__inteligenciaArtificial{
+
+    background-image: url(../img/Agricultura-sustentavel\ \(pagina\ principal\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    
+}
+
+.titulo{
+    font-weight: 800;
+    font-size: 80px;
+    
+}
+
+.logo__img{
+    top: 40px;
+    left: 80px;
+    position: absolute;
+    height: 135px;
+    width: 150px;
+}
+.nav{
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 2%;
+    
+}
+.nav__link{
+    flex-grow: 1;
+    
+}
+.botoes{
+    padding-bottom: 80px;
+}
+.botao{
+    
+    color: black;
+    width: 234px;
+    height: 52px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #859715;
+}
+.right{
+    background-color: white;
+    margin-right: 15px;
+}
+
+#home{
+    padding-right: 30px;
+}
+
+.titulo__texto1{
+    font-weight: 600;
+}
+.texto1{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    gap: 3%;
+    
+}
+.texto1__img{
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+}
+.texto2{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    gap: 3%;
+    
+}
+.texto2__img{
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+}
+.texto3{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    gap: 3%;
+    
+}
+.texto3__img{
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+}
+footer{
+
+    background-color: #859715;
+    height: 150px;
+    width: 100%;
+}
+.nomes{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nomes__nome{
+    color: white;
+    font-weight: 200;
+    
+}

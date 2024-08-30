@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+#header__secundario{
+   width: 100%;
+    height: 200px;
+    padding-left: 100px;
+    margin-bottom: 10%;
+    background-color: #859715;
+    
+    
+}
+.logo__img{
+    top: 20px;
+    left: 30px;
+    position: absolute;
+    height: 135px;
+    width: 150px;
+}
+.nav{
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-left: 200px;
+    font-weight: 600;
+    font-size: 20px ;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    gap: 2%;
+    
+    /* background-color: #859715; */
+}
+.nav__link{
+    color: white;
+}
+.parceria__img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    
+}
+.titulo__parceria{
+    color: #859715;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 5%;
+    max-width: 440px;
+    margin: auto;
+    text-align: center;
+    
+}
+span{
+    color: #614207;
+}
+h2{
+    font-weight: 800;
+    color: black;
+    margin-bottom: 2%;
+}
+.empresa{
+    font-weight: 200;
+}
+footer{
+
+    background-color: #859715;
+    height: 150px;
+    width: 100%;
+}
+.nomes{
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nomes__nome{
+    color: white;
+    font-weight: 200;
+    
+}
+main{
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+.empresas{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    gap: 3%;
+    
+}
+.empresas__img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* -------pagina formulario-------- */
+form{
+    
+    width: 300px;
+    margin: auto;
+}
+form label{
+
+    display: inline-block;
+    width: 100px;
+}
+form input, form select{
+
+    margin-bottom: 10px;
+}
+.container form{
+
+    
+    height: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container h1{
+    margin: 2px solid black;
+
+    margin: 5%;
+}
+form{
+    background-color: #859715;
+    padding: 2%;
+    border-radius: 12px;
+}
